@@ -1,0 +1,49 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar__title {
+    font-weight: bold;
+    color: #fff;
+    position:relative;
+}
+.navbar__rule{
+    border: 2px solid #4A80F0;
+    width: 25%;
+    position: absolute;
+    bottom: -10px;
+}
+.navbar__subtitle{
+    color: rgba(255, 255, 255, 0.37);
+    font-weight:300;
+    padding:0 5px
+}
+.nav__logo{
+     width: auto;
+     height: 100px;
+     background-image: url('../../assets/images/logo.png');
+     background-size: cover;
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.nav__logo{
+     height: 60px;
+}
+.navbar>h4 {
+    font-size: 1.2rem;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+.nav__logo{
+     height: 60px;
+    
+}
+.navbar>h4 {
+    font-size: 1.2rem;
+}
+}

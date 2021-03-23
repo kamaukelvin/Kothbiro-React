@@ -1,0 +1,37 @@
+.events__wrapper{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+.events__fixture__preview{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom:4rem;
+    width: 100%;
+    text-align: center;
+
+}
+.event__homeTeam{
+    background: #3AB648;
+   padding:40px;
+   font-weight:bold;
+   color: #fff
+   
+   
+}
+.event__awayTeam{
+    background: #3252E5;
+   padding:40px;
+    font-weight:bold;
+    color: #fff
+   
+
+}
+.event__score{
+    text-align: center;
+    font-size: 20px;
+    color:#FF9D00;
+    font-weight: bold
+}

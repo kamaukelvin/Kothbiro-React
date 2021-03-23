@@ -1,0 +1,18 @@
+.ant-timeline{
+    color: #fff !important
+}
+.ant-timeline-item-head{
+    background:transparent !important
+}
+.ant-timeline.ant-timeline-label .ant-timeline-item-label{
+    color:#00FF85 !important
+}
+.ant-timeline-item-tail{
+border-left:2px solid #00FF85 !important
+}
+.ant-timeline-item{
+    padding-bottom: 40px !important
+}
+.ant-timeline.ant-timeline-label .ant-timeline-item-left .ant-timeline-item-content {
+    width: 100% !important
+}
